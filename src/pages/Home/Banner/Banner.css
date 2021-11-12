@@ -1,0 +1,29 @@
+.bgimg {
+  background-image: url("https://cdn.wallpapersafari.com/33/93/etvUiD.jpg");
+  background-repeat: no-repeat;
+  height: 680px;
+}
+.ldiv {
+  width: 100%;
+  margin-left: 200px;
+  margin-top: 150px;
+  color: rgb(129, 104, 72);
+}
+span {
+  color: #ff843d;
+}
+
+@media only screen and (max-width: 600px) {
+  .bgimg {
+    background-image: url("https://cdn.wallpapersafari.com/33/93/etvUiD.jpg");
+    background-repeat: no-repeat;
+    /* height: 645px; */
+    height: 645px;
+  }
+  .ldiv {
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 150px;
+    color: white;
+  }
+}

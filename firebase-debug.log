@@ -1,0 +1,21 @@
+[debug] [2021-11-11T17:48:06.353Z] ----------------------------------------------------------------------
+[debug] [2021-11-11T17:48:06.358Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy
+[debug] [2021-11-11T17:48:06.359Z] CLI Version:   9.22.0
+[debug] [2021-11-11T17:48:06.359Z] Platform:      linux
+[debug] [2021-11-11T17:48:06.359Z] Node Version:  v10.19.0
+[debug] [2021-11-11T17:48:06.359Z] Time:          Thu Nov 11 2021 23:48:06 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-11-11T17:48:06.359Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-11T17:48:06.477Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-11T17:48:06.477Z] > authorizing via signed-in user (shahidabdulla.aas@gmail.com)
+[debug] [2021-11-11T17:48:06.477Z] [iam] checking project travel-guru-2c0aa for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-11-11T17:48:06.482Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-11-11T17:48:06.482Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-11T17:48:06.867Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Thu, 11 Nov 2021 11:48:06 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-11T17:48:06.940Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/travel-guru-2c0aa:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-11-11T17:48:08.509Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 11 Nov 2021 11:48:08 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1229","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-11T17:48:08.515Z] > refreshing access token with scopes: []
+[debug] [2021-11-11T17:48:08.516Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>

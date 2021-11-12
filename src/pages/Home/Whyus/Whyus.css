@@ -1,0 +1,29 @@
+.cus {
+  background-color: #315048;
+  color: white;
+  margin-bottom: 40px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid lightgray;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media only screen and (max-width: 600px) {
+  .cus {
+    background-color: #315048;
+    color: white;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid lightgray;
+  }
+
+  .grid-container {
+    margin-left: 23px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
