@@ -12,7 +12,7 @@ const Whyus = () => {
         Why DJI-X
       </p>
       <h2 className="text-center mb-5" style={{ fontSize: "50px" }}>
-        Why You Are Buying from us
+        Why You should be our customer
       </h2>
       <div className="text-center grid-container">
         <div className="cus">
